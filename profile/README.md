@@ -23,7 +23,7 @@ The backend is composed of 6 Java Spring Boot microservice applications. It main
 - [EventTemplateService](https://github.com/EatTheFrogs/EventTemplateService): Proxy to EventTemplate database
 
 ### CI/CD
-This project is equipped with a lightweight CI/CD pipeline powered by Jenkins. The Jenkins server uses GitHub event hooks to automate builds and deploy actions as defined in the Jenkinsfile within each repo. The backend services are deployed using Docker containers and docker-compose. Originally the plan was to use Kubernetes for deployments... This plan was foiled when I learned that my VPS isn’t capable of running K8s due to OpenVZ --- only found this out after spending a week setting up a working Kubernetes system on my local. Sadge.
+This project is equipped with a lightweight CI/CD pipeline powered by Jenkins. The Jenkins server uses GitHub event hooks to automate builds and deploy actions as defined in the Jenkinsfile within each repo. The backend services are deployed using Docker containers and docker-compose. Originally the plan was to use Kubernetes for deployments... This plan was foiled when I learned that my VPS isn’t capable of running K8s due to OpenVZ --- only found this out after spending a week setting up a working Kubernetes system on my local.
 
 
 ## Takeaways
